@@ -1,13 +1,13 @@
 :root {
-  --color-primary: #BC1C2C;
-  --color-primary-light: #C45865;
-  --color-secondary: #5F0707;
-  --color-accent: #EEEEEE;
+  --color-primary: #bc1c2c;
+  --color-primary-light: #c45865;
+  --color-secondary: #5f0707;
+  --color-accent: #eee;
   --color-neutral-beige: #e2e2e2;
-  --color-whatever: #4C4C50;
+  --color-whatever: #4c4c50;
 
-  --font-primary: Roboto, Arial, sans-serif;
-  --font-secondary: "Roboto Bold", Menlo, Consolas, monospace;
+  --font-primary: roboto, arial, sans-serif;
+  --font-secondary: "roboto bold", menlo, consolas, monospace;
 }
 
 html {
