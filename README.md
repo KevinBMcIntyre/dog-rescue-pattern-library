@@ -5,9 +5,11 @@ fonts:
   primary: |
     The strong classic typeface is used to create stability and a trust between the reader through a sense of familiarity.
 
+
     Use the primary typeface for everything from the heading through the body and captions.
   secondary: |
     The sophisticated, yet powerful typeface creates a serious tone appropriate for most occasions.
+
 
     Use this typeface sparingly on lists and charts.
 colors:
