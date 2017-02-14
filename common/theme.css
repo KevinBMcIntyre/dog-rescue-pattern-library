@@ -7,9 +7,30 @@
   --color-whatever: #4c4c50;
 
   --font-primary: roboto, arial, sans-serif;
-  --font-secondary: "roboto bold", menlo, consolas, monospace;
+  --font-secondary: "Slabo 27px", serif;
 }
 
 html {
   font-family: var(--font-primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-primary);
+  color: var(--color-whatever);
+}
+
+ul, ol, dl {
+  font-family: var(--font-secondary);
+}
+
+a {
+  color: var(--color-accent);
+}
+
+blockquote, cite {
+  color: var(--color-light);
+}
+
+em, strong, del, ins, abbr, dfn, i, b, mark, q, s, u {
+  color: var(--color-secondary);
 }
