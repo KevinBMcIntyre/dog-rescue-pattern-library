@@ -1,6 +1,6 @@
 ---
 name: "LOYAL Rescue Inc."
-fontURL: "https://fonts.googleapis.com/css?family=Roboto:400,400i,700|Slabo+27px:400,700"
+fontUrl: "https://fonts.googleapis.com/css?family=Roboto:400,400i,700|Slabo+27px:400,700"
 fonts:
   primary: |
     The strong classic typeface is used to create stability and a trust between the reader through a sense of familiarity.
