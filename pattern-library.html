@@ -752,7 +752,6 @@ icon-card: |
             <li><a href="#forms-agree-button">Agree button</a></li>
             <li><a href="#forms-comment-field">Comment field</a></li>
             <li><a href="#forms-email-field">Email field</a></li>
-            <li><a href="#forms-form-field-css">Form field css</a></li>
             <li><a href="#forms-name">Name</a></li>
         </ol>
       </nav>
@@ -795,7 +794,6 @@ icon-card: |
           <div class="gutter">
             <div class="pattern-code milli island-1-2">
               <code><pre>&lt;form class="max-length island" method="post" novalidate=""&gt;
-
   &lt;div class="push-1-2 pad-t-2">
     &lt;input type="checkbox" id="agree" required aria-describedby="agree-error">
     &lt;label for="agree">Agree to terms and licensing&lt;/label>
@@ -803,11 +801,9 @@ icon-card: |
       &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
       &lt;span class="icon-label">Please click agree&lt;/span>
     &lt;/p>
-
-    &lt;div class="pad-t-1-2">
-      &lt;button class="btn" type="submit">Agree&lt;/button>
-    &lt;/div>
-
+  &lt;/div>
+  &lt;div class="pad-t-1-2">
+    &lt;button class="btn" type="submit">Agree&lt;/button>
   &lt;/div>
 &lt;/form>
 </pre></code>
@@ -899,52 +895,13 @@ icon-card: |
   &lt;div class="push-1-2">
     &lt;label for="email">Email&lt;/label>
     &lt;input type="email" id="email" required aria-describedby="email-error">
-    &lt;p class="error-message milli island-1-4 push-0" id="name-error">
+    &lt;p class="error-message milli island-1-4 push-0" id="email-error">
       &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
       &lt;span class="icon-label">Please provide properly formatted email eddress&lt;/span>
     &lt;/p>
   &lt;/div>
 
 &lt;/form>
-</pre></code>
-            </div>
-          </div>
-      </div>
-    </div>
-    <div class="pattern-details" id="forms-form-field-css">
-        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4">
-          <h3 class="pattern-name tera push-1-8">Form field css</h3>
-            <div class="gutter absolute pin-cr">
-              <a class="pattern-pop" href="patterns/forms/form-field.css.html" target="_blank" title="Open pattern in a new tab">
-                <i class="icon i-18">
-                  <svg><use xlink:href="#pop-out" /></svg>
-                </i>
-              </a>
-            </div>
-        </div>
-
-      <div class="pattern-examples pad-t-1-2 pad-b">
-        <div class="gutter-2 pad-t-1-2 pad-b-1-2 push-1-2" style="">
-          <div class="resizeable-pattern relative" style="">
-            <iframe src="patterns/forms/form-field.css.html" scrolling="no" onload="resizeIframe(this)"></iframe>
-              <div class="resizeable-pattern-length">
-                <div class="resize-handle resize-handle-left" style="">
-                  <i class="icon i-18">
-                    <svg><use xlink:href="#resize-handle" /></svg>
-                  </i>
-                </div>
-                <div class="resize-handle resize-handle-right" style="">
-                  <i class="icon i-18">
-                    <svg><use xlink:href="#resize-handle" /></svg>
-                  </i>
-                </div>
-              </div>
-          </div>
-        </div>
-
-          <div class="gutter">
-            <div class="pattern-code milli island-1-2">
-              <code><pre>html { font-family: sans-serif; } .flag-optional { color: #999; } .is-validated input:invalid, .is-validated input[type=&quot;checkbox&quot;]:invalid + label::before { border-color: #f33; } .error-message { display: none; background-color: #fee; color: #c33; } .error-message-highlighted { background-color: #c33; color: #fff; } .is-validated &gt; .error-message:first-child, .is-validated input:invalid + .error-message, .is-validated input:invalid + label + .error-message { display: block; }
 </pre></code>
             </div>
           </div>
