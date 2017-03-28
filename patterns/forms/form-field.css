@@ -27,3 +27,6 @@ html {
 .is-validated input:invalid + label + .error-message {
   display: block;
 }
+input {
+  border: 2px solid #bc1c2c;
+}
