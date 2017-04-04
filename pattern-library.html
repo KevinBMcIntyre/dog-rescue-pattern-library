@@ -49,12 +49,15 @@
               <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#typography">Typography</a></li>
               <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#grid">Grid</a></li>
               <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#modules">Modules</a></li>
+              <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#icons">Icons</a></li>
+                <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#banner">Banner</a></li>
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#buttons">Buttons</a></li>
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#cards">Cards</a></li>
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#footer">Footer</a></li>
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#forms">Forms</a></li>
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#header">Header</a></li>
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#navigations">Navigations</a></li>
+                <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#sections">Sections</a></li>
           </ul>
         </nav>
       </div>
@@ -575,6 +578,97 @@
 
 </section>
 
+        <section class="pattern" id="icons" style="">
+  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" style="">
+    <h2 class="pattern-name peta push-1-4">Icons</h2>
+  </div>
+
+    <div class="pattern-desc milli island" style="">
+      <div class="max-length"><p>The sprite sheet contains the following icons that are available for use in the website. Combine the icons with <a href="https://modulifier.web-dev.tools">Modulifier</a> classes for lots of variability. <a href="https://learn-the-web.algonquindesign.ca/topics/modulifier-cheat-sheet/">See the documentation for all available classes.</a></p>
+</div>
+    </div>
+
+  
+
+    <div class="pattern-details" id="icons-icons" style="">
+
+      <div class="pattern-examples pad-t-1-2 pad-b">
+        <div class="gutter pad-t-1-2 pad-b-1-2 push-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <iframe src="patterns/icons/1-icons.html" scrolling="no" onload="resizeIframe(this)" ></iframe>
+          </div>
+        </div>
+
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2" style="">
+              <code><pre>&lt;i class="icon i-192"&gt;
+  &lt;svg>&lt;use xlink:href="images/icons.svg#ID-FROM-LIST"/>&lt;/svg>
+&lt;/i>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
+        <section class="pattern" id="banner" style="">
+  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" style="">
+    <h2 class="pattern-name peta push-1-4">Banner</h2>
+        <div class="gutter absolute pin-cr">
+          <a class="pattern-pop" href="patterns/banner/banner.html" target="_blank" title="Open pattern in a new tab">
+            <i class="icon i-18">
+              <svg><use xlink:href="#pop-out" /></svg>
+            </i>
+          </a>
+        </div>
+  </div>
+
+
+  
+
+    <div class="pattern-details" id="banner-banner" style="">
+
+      <div class="pattern-examples pad-t-1-2 pad-b">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2 push-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <iframe src="patterns/banner/banner.html" scrolling="no" onload="resizeIframe(this)" ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2" style="">
+              <code><pre>&lt;div class="banner"&gt;
+  &lt;div class="embed embed-4by1">
+    &lt;img class="embed-item" src="../../images/banner.jpg" alt="">
+  &lt;/div>
+  &lt;div class="banner-content island-2">
+    &lt;div class="wrapper gutter-1-2">
+      &lt;span class="mega push-0 block">Hundreds of dogs need a loving home.&lt;/span>
+      &lt;a href="#" class="btn block">Adopt a dog!&lt;/a>
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
         <section class="pattern" id="buttons" style="">
   <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" style="">
     <h2 class="pattern-name peta push-1-4">Buttons</h2>
@@ -690,9 +784,13 @@ icon-card: |
 
           <div class="gutter">
             <div class="pattern-code milli island-1-2" style="">
-              <code><pre>&lt;div class="card island-1-2"&gt;
-  &lt;h2 class="push-1-4">This is a card&lt;/h2>
-  &lt;p class="push-0"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/p>
+              <code><pre>&lt;div class="wrapper gutter-1-2"&gt;
+  &lt;div class="card island-2">
+    &lt;h2 class="push-1-4">This is a card&lt;/h2>
+    &lt;p class="push-0 pad-b-1 pad-t-1 "> Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/p>
+    &lt;a class="btn" href="#">Button&lt;/a>
+  &lt;/div>
+  &lt;div class="wrapper gutter-1-2">&lt;/div>
 &lt;/div>
 </pre></code>
             </div>
@@ -789,28 +887,28 @@ icon-card: |
 
           <div class="gutter">
             <div class="pattern-code milli island-1-2" style="">
-              <code><pre>&lt;section id="footer" class="pad-b"&gt;
+              <code><pre>&lt;section id="footer" class="pad-b-2"&gt;
   &lt;footer role="contentinfo">
     &lt;div class="footer text-center">
-      &lt;div class="wrapper gutter-1-2 pad-t">
-        &lt;p class="push-1-2 micro">LOYAL Rescue Inc. &#xA9; 2005-2017&lt;/p>
-      &lt;/div>
       &lt;div class="icon-nav">
-        &lt;a class="inline-block push" href="#">
+        &lt;a class="inline-block pad-t-2" href="#">
           &lt;i class="icon i-32">
               &lt;svg>&lt;use xlink:href="../../images/socialicons.svg#facebook"/>&lt;/svg>
             &lt;/i>
         &lt;/a>
-        &lt;a class="inline-block push" href="#">
+        &lt;a class="inline-block" href="#">
           &lt;i class="icon i-32">
               &lt;svg>&lt;use xlink:href="../../images/socialicons.svg#instagram"/>&lt;/svg>
             &lt;/i>
         &lt;/a>
-        &lt;a class="inline-block push" href="#">
+        &lt;a class="inline-block" href="#">
           &lt;i class="icon i-32">
               &lt;svg>&lt;use xlink:href="../../images/socialicons.svg#twitter"/>&lt;/svg>
             &lt;/i>
         &lt;/a>
+      &lt;/div>
+      &lt;div class="wrapper gutter-1-2 island">
+        &lt;p class="push-1-2 micro">LOYAL Rescue Inc. &#xA9; 2005-2017&lt;/p>
       &lt;/div>
     &lt;/div>
   &lt;/footer>
@@ -1238,6 +1336,63 @@ icon-card: |
         &lt;svg>&lt;use xlink:href="../../images/socialicons.svg#twitter"/>&lt;/svg>
       &lt;/i>
   &lt;/a>
+&lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
+        <section class="pattern" id="sections" style="">
+  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" style="">
+    <h2 class="pattern-name peta push-1-4">Sections</h2>
+        <div class="gutter absolute pin-cr">
+          <a class="pattern-pop" href="patterns/sections/section.html" target="_blank" title="Open pattern in a new tab">
+            <i class="icon i-18">
+              <svg><use xlink:href="#pop-out" /></svg>
+            </i>
+          </a>
+        </div>
+  </div>
+
+    <div class="pattern-desc milli island" style="">
+      <div class="max-length"><p>The cards provide a way for us to highlight important pieces of information &amp; separate them from basic body content.</p>
+</div>
+    </div>
+
+  
+
+    <div class="pattern-details" id="sections-section" style="">
+
+      <div class="pattern-examples pad-t-1-2 pad-b">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2 push-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <iframe src="patterns/sections/section.html" scrolling="no" onload="resizeIframe(this)" ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2" style="">
+              <code><pre>&lt;div class="wrapper gutter-1-2"&gt;
+  &lt;div class="card island-2">
+    &lt;h2 class="push-1-4">This is a section&lt;/h2>
+    &lt;p class="push-0 pad-b-1 pad-t-1 "> Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/p>
+  &lt;/div>
+  &lt;div class="wrapper gutter-1-2">&lt;/div>
 &lt;/div>
 </pre></code>
             </div>
