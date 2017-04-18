@@ -2,7 +2,8 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Banner</title>
+  <title>basic card</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="../../common/modules.css" rel="stylesheet">
   <link href="../../common/grid.css" rel="stylesheet">
@@ -10,21 +11,23 @@
   <link href="../../common/theme.css" rel="stylesheet">
   <link href="../buttons/buttons.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet">
-  <link href="banner.css" rel="stylesheet">
+  <link href="cards.css" rel="stylesheet">
 </head>
 <body>
-
-  <div class="banner">
-    <div class="embed embed-4by1">
+  <div class="dogs island">
+    <div class="embed embed-1by1">
       <img class="embed-item" src="../../images/banner.jpg" alt="">
     </div>
-    <div class="banner-content island-2">
-      <div class="wrapper gutter-1-2">
-        <span class="tera push-0 block">Hundreds of dogs need a loving home.</span>
-        <a href="#" class="btn block icon-link" id="logo">Adopt a dog!</a>
-      </div>
+    <div class="text block island">
+      <i class="icon i-64 block">
+        <svg>
+          <use xlink:href="../../images/icons.svg#male" />
+        </svg>
+        <h3 class="gutter-2 name yotta">Marlon</h3>
+      </i>
+      <span class="pad-b-1-2 block">Marlon is a hyper dog that loves kids.</span>
+      <a href="#" class="btn block icon-link" id="logo">Adopt Now</a>
     </div>
   </div>
-
 </body>
 </html>

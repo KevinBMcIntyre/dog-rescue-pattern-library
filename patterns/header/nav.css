@@ -1,18 +1,17 @@
-a {
+.navigation a {
   color: var(--color-primary);
 }
 
-a:hover {
+.navigation a:hover {
   color: var(--color-accent);
 }
 
-.banner {
+.navigation {
   background-color: white;
 }
 
 .nav {
   position: relative;
-  background-color: var(--color-primary);
   z-index: 2;
   vertical-align: center;
 }
@@ -31,9 +30,13 @@ a:hover {
   font-family: var(--font-primary);
 }
 
-.wrapper {
+.nav wrapper {
   background-color: #fff;
   padding-top: .5em;
+}
+
+.active {
+  color: black!important;
 }
 
 @media only screen and (min-width: 38em) {

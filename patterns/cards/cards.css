@@ -4,3 +4,16 @@
 .card p {
 	padding-bottom: 1em;
 }
+
+.gender {
+	fill: var(--color-primary-light);
+}
+
+.dogs {
+	position: relative;
+}
+
+.name {
+	text-decoration: none;
+	font-style: normal;
+}

@@ -33,7 +33,7 @@
 @media only screen and (min-width: 45em) {
 
 .banner-content {
-  top: -20%;
+  padding: 5%;
 }
 
 .embed-4by1, .embed--4by1 {
