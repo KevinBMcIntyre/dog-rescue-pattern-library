@@ -5,8 +5,13 @@
 	padding-bottom: 1em;
 }
 
+.gendericon {
+	fill: white;
+}
+
 .gender {
-	fill: var(--color-primary-light);
+	position: absolute;
+	top: 3em;
 }
 
 .dogs {
