@@ -79,7 +79,7 @@
           <nav class="nav mega">
             <ul class="list-group">
                 <li>
-                  <a class="gutter pad-t-1-4 pad-b-1-4 block page-pop" href="/pages/adoption.html" target="_blank">
+                  <a class="gutter pad-t-1-4 pad-b-1-4 block page-pop" href="pages/adoption.html" target="_blank">
                     <div class="relative">
                       <span>Adoption</span>
                       <i class="icon i-18 absolute pin-cr">
@@ -89,7 +89,17 @@
                   </a>
                 </li>
                 <li>
-                  <a class="gutter pad-t-1-4 pad-b-1-4 block page-pop" href="/pages/home.html" target="_blank">
+                  <a class="gutter pad-t-1-4 pad-b-1-4 block page-pop" href="pages/application.html" target="_blank">
+                    <div class="relative">
+                      <span>Application</span>
+                      <i class="icon i-18 absolute pin-cr">
+                        <svg><use xlink:href="#icon-pop-out" /></svg>
+                      </i>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a class="gutter pad-t-1-4 pad-b-1-4 block page-pop" href="pages/home.html" target="_blank">
                     <div class="relative">
                       <span>Home</span>
                       <i class="icon i-18 absolute pin-cr">
@@ -827,9 +837,7 @@
             </ul>
         </div>
           <div class="pattern-desc milli island" style="">
-            <div class="max-length"><p>The basic card should only be for information, it could include a button, but never a link itself.
-icon-card: |
-  The icon card is generally used for calls-to-action on the homepage or highlight on the pages.</p>
+            <div class="max-length"><p>The basic card should only be for information, it could include a button, but never a link itself.</p>
 </div>
           </div>
 
@@ -1060,6 +1068,10 @@ icon-card: |
                 </li>
             </ul>
         </div>
+          <div class="pattern-desc milli island" style="">
+            <div class="max-length"><p>The icon card is generally used for calls-to-action on the homepage or highlight on the pages.</p>
+</div>
+          </div>
 
       <div class="pattern-examples pad-t-1-2 pad-b-1-2">
         <div class="gutter-2 pad-t-1-2 pad-b-1-2">
@@ -1199,6 +1211,8 @@ icon-card: |
         <ol class="list-group-inline push-1-4">
             <li><a href="#forms-agree-button">Agree button</a></li>
             <li><a href="#forms-comment-field">Comment field</a></li>
+            <li><a href="#forms-confirm-submit">Confirm submit</a></li>
+            <li><a href="#forms-dropdown-selection">Dropdown selection</a></li>
             <li><a href="#forms-email-field">Email field</a></li>
             <li><a href="#forms-name">Name</a></li>
         </ol>
@@ -1333,6 +1347,140 @@ icon-card: |
           </div>
       </div>
     </div>
+    <div class="pattern-details" id="forms-confirm-submit" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Confirm submit</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="forms-confirm-submit-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/forms/confirm-submit.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <iframe data-src="patterns/forms/confirm-submit.html" scrolling="no" onload="resizeIframe(this)" ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="forms-confirm-submit-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#forms-confirm-submit-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="forms-confirm-submit-code-sample-copy-chunk">&lt;form class="max-length island" method="post" novalidate=""&gt;
+
+  &lt;div class="push-1-2 pad-t-2">
+    &lt;input type="checkbox" id="agree" required aria-describedby="agree-error">
+    &lt;label for="agree">Title&lt;/label>
+    &lt;p class="error-message milli island-1-4 push-0" id="agree-error">
+      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#settings"/>&lt;/svg>&lt;/i>
+      &lt;span class="icon-label">Please agree&lt;/span>
+    &lt;/p>
+
+  &lt;/div>
+
+  &lt;div class="pad-t-1-2">
+    &lt;button class="btn btn-em" type="submit">Send&lt;/button>
+  &lt;/div>
+
+&lt;/form>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details" id="forms-dropdown-selection" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Dropdown selection</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="forms-dropdown-selection-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/forms/dropdown-selection.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <iframe data-src="patterns/forms/dropdown-selection.html" scrolling="no" onload="resizeIframe(this)" ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="forms-dropdown-selection-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#forms-dropdown-selection-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="forms-dropdown-selection-code-sample-copy-chunk">&lt;form class="max-length island" method="post" novalidate=""&gt;
+
+  &lt;div class="push-1-2">
+    &lt;label for="choices">Select one&lt;/label>
+    &lt;select id="choices">
+      &lt;option>Uno&lt;/option>
+      &lt;option>Dos&lt;/option>
+      &lt;option>Tres&lt;/option>
+      &lt;option>Quatro&lt;/option>
+    &lt;/select>
+  &lt;/div>
+
+&lt;/form>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
     <div class="pattern-details" id="forms-email-field" style="">
         <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
           <h3 class="pattern-name tera push-1-8">Email field</h3>
@@ -1386,7 +1534,7 @@ icon-card: |
     &lt;label for="email">Email&lt;/label>
     &lt;input type="email" id="email" required aria-describedby="email-error">
     &lt;p class="error-message milli island-1-4 push-0" id="email-error">
-      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#settings"/>&lt;/svg>&lt;/i>
       &lt;span class="icon-label">Please provide properly formatted email address&lt;/span>
     &lt;/p>
   &lt;/div>
@@ -1449,7 +1597,7 @@ icon-card: |
     &lt;label for="name">Name&lt;/label>
     &lt;input id="name" required aria-describedby="name-error">
     &lt;p class="error-message milli island-1-4 push-0" id="name-error">
-      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/error-icon.svg#error"/>&lt;/svg>&lt;/i>
+      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/error-icon.svg#settings"/>&lt;/svg>&lt;/i>
       &lt;span class="icon-label">Please provide a name&lt;/span>
     &lt;/p>
   &lt;/div>
@@ -1536,8 +1684,7 @@ icon-card: |
               &lt;ol class="mega list-group push-0 text-center">
                 &lt;li>&lt;a class="active" href="home.html">HOME&lt;/a>&lt;/li>
                 &lt;li>&lt;a href="adoption.html">ADOPTION&lt;/a>&lt;/li>
-                &lt;li>&lt;a href="#application">APPLICATION&lt;/a>&lt;/li>
-                &lt;li>&lt;a href="#contactus">CONTACT US&lt;/a>&lt;/li>
+                &lt;li>&lt;a href="application.html">APPLICATION&lt;/a>&lt;/li>
               &lt;/ol>
             &lt;/div>
           &lt;/div>
