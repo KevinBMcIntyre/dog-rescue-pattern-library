@@ -1,24 +1,35 @@
-.card h2{
-	color: var(--color-primary-light);
+.card h2 {
+  color: var(--color-primary-light);
 }
+
 .card p {
-	padding-bottom: 1em;
+  padding-bottom: 1em;
 }
 
 .gendericon {
-	fill: white;
+  fill: white;
 }
 
 .gender {
-	position: absolute;
-	top: 3em;
+  position: absolute;
+  top: 2em;
 }
 
 .dogs {
-	position: relative;
+  position: relative;
 }
 
 .name {
-	text-decoration: none;
-	font-style: normal;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.featured {
+  width: calc(100% + 3em);
+  left: -1.5em;
+  position: relative;
+}
+
+.silver {
+	background-color: var(--color-accent);
 }

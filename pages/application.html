@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Loyal Rescue - Application</title>
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <link href="../common/modules.css" rel="stylesheet">
+  <link href="../common/grid.css" rel="stylesheet">
+  <link href="../common/type.css" rel="stylesheet">
+  <link href="../common/theme.css" rel="stylesheet">
+  <link href="../patterns/header/nav.css" rel="stylesheet">
+  <link href="../patterns/banner/banner.css" rel="stylesheet">
+  <link href="../patterns/buttons/buttons.css" rel="stylesheet">
+  <link href="../patterns/footer/footer.css" rel="stylesheet">
+  <link href="../patterns/cards/cards.css" rel="stylesheet">
+  <link href="../patterns/forms/form-field.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet">
+</head>
+<body>
+  <header class="banner pad-t pad-b" role="banner">
+    <div class="wrapper gutter-1-2">
+      <div class="masthead grid">
+        <div class="unit xs-1 s-1 m-1-3 l-1-3 text-center">
+          <a class="icon-link" href="home.html" id="logo"><i class="icon i-64"><img alt="Loyal Rescue logo" src="../images/logo.svg"></i>
+          <h1 class="push-0 icon-label inline-block">Loyal Rescue</h1></a>
+        </div>
+        <div class="unit xs-1 s-1 m-2-3 l-2-3">
+          <nav id="nav" role="navigation">
+            <div class="nav">
+              <div class="wrapper gutter-1-2">
+                <ol class="mega list-group push-0 text-center">
+                  <li>
+                    <a href="home.html">HOME</a>
+                  </li>
+                  <li>
+                    <a href="adoption.html">ADOPTION</a>
+                  </li>
+                  <li>
+                    <a class="active" href="application.html">APPLICATION</a>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="island-2 silver">
+    <div class="wrapper gutter-1-2 island-2">
+      <div class="card">
+        <h2 class="push-1-4">LOYAL Rescue Inc. Dog Adoption Application</h2>
+        <p class="push-0 pad-b-1 pad-t-1">Please fill in as much information as possible in each tab. If the application is not complete, we cannot consider you for one of our dogs. Adopting a rescued dog is a serious endeavor and should not be done as a "spur of the moment" action.</p>
+      </div>
+    </div>
+  </div>
+  <div class="island-2">
+    <div class="wrapper gutter-1-2 island-2">
+      <div class="card">
+        <h2 class="push-1-4">Application</h2>
+        <h3 class="push-1-4 pad-t-1-2">About You</h3>
+        <div class="push-0 pad-b-1 pad-t-1">
+          <form method="post" novalidate="">
+            <div class="grid featured">
+              <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
+                <div class="push-1-2">
+                  <label for="name">Name of the dog you are applying for:</label> <input aria-describedby="name-error" id="name" required="">
+                  <p class="error-message milli island-1-4 push-0" id="name-error"><i class="icon i-16"><svg>
+                  <use xlink:href="images/error-icon.svg#settings"></use></svg></i> <span class="icon-label">Please provide a name</span></p>
+                </div>
+                <div class="push-1-2">
+                  <label for="name">First & Last Name:</label> <input aria-describedby="name-error" id="name" required="">
+                  <p class="error-message milli island-1-4 push-0" id="name-error"><i class="icon i-16"><svg>
+                  <use xlink:href="images/error-icon.svg#settings"></use></svg></i> <span class="icon-label">Please provide a name</span></p>
+                </div>
+                <div class="push-1-2">
+                  <label for="name">Your Age:</label> <input aria-describedby="name-error" id="name" required="">
+                  <p class="error-message milli island-1-4 push-0" id="name-error"><i class="icon i-16"><svg>
+                  <use xlink:href="images/error-icon.svg#settings"></use></svg></i> <span class="icon-label">Please provide your age</span></p>
+                </div>
+                <div class="push-1-2">
+                  <label for="name">Address:</label> <input aria-describedby="name-error" id="name" required="">
+                  <p class="error-message milli island-1-4 push-0" id="name-error"><i class="icon i-16"><svg>
+                  <use xlink:href="images/error-icon.svg#settings"></use></svg></i> <span class="icon-label">Please provide an address</span></p>
+                </div>
+                <div class="push-1-2">
+                  <label for="name">City:</label> <input aria-describedby="name-error" id="name" required="">
+                  <p class="error-message milli island-1-4 push-0" id="name-error"><i class="icon i-16"><svg>
+                  <use xlink:href="images/error-icon.svg#settings"></use></svg></i> <span class="icon-label">Please provide a city</span></p>
+                </div>
+                <div class="push-1-2">
+                  <label for="name">Province/State:</label> <input aria-describedby="name-error" id="name" required="">
+                  <p class="error-message milli island-1-4 push-0" id="name-error"><i class="icon i-16"><svg>
+                  <use xlink:href="images/error-icon.svg#settings"></use></svg></i> <span class="icon-label">Please provide a province or state</span></p>
+                </div>
+                <div class="push-1-2">
+                  <label for="name">Email Address:</label> <input aria-describedby="name-error" id="name" required="">
+                  <p class="error-message milli island-1-4 push-0" id="name-error"><i class="icon i-16"><svg>
+                  <use xlink:href="images/error-icon.svg#settings"></use></svg></i> <span class="icon-label">Please provide an email address</span></p>
+                </div>
+              </div>
+              <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
+                <div class="push-1-2">
+                  <label for="name">Primary Phone number:</label> <input aria-describedby="name-error" id="name" required="">
+                  <p class="error-message milli island-1-4 push-0" id="name-error"><i class="icon i-16"><svg>
+                  <use xlink:href="images/error-icon.svg#settings"></use></svg></i> <span class="icon-label">Please provide a phone number</span></p>
+                </div>
+                <div class="push-1-2">
+                  <label for="name">Your Employer:</label> <input aria-describedby="name-error" id="name" required="">
+                  <p class="error-message milli island-1-4 push-0" id="name-error"><i class="icon i-16"><svg>
+                  <use xlink:href="images/error-icon.svg#settings"></use></svg></i> <span class="icon-label">Please provide an employer</span></p>
+                </div>
+                <div class="push-1-2">
+                  <label for="name">Your Employer's Phone Number:</label> <input aria-describedby="name-error" id="name" required="">
+                  <p class="error-message milli island-1-4 push-0" id="name-error"><i class="icon i-16"><svg>
+                  <use xlink:href="images/error-icon.svg#settings"></use></svg></i> <span class="icon-label">Please provide a number</span></p>
+                </div>
+                <div class="push-1-2">
+                  <label for="name">Number of children:</label> <input aria-describedby="name-error" id="name" required="">
+                  <p class="error-message milli island-1-4 push-0" id="name-error"><i class="icon i-16"><svg>
+                  <use xlink:href="images/error-icon.svg#settings"></use></svg></i> <span class="icon-label">Please provide number of children</span></p>
+                </div>
+                <div class="push-1-2">
+                  <label for="name">Total number of people residing in home:</label> <input aria-describedby="name-error" id="name" required="">
+                  <p class="error-message milli island-1-4 push-0" id="name-error"><i class="icon i-16"><svg>
+                  <use xlink:href="images/error-icon.svg#settings"></use></svg></i> <span class="icon-label">Please provide a number</span></p>
+                </div>
+                <div class="push-1-2">
+                  <label for="comment">Does anyone have any allergies? If so, please explain:</label>
+                  <textarea id="comment"></textarea>
+                </div>
+              </div>
+            </div>
+            <h3 class="push-1-4 pad-t-1-2">Your Lifestyle</h3>
+            <div class="grid featured">
+              <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
+                <div class="push-1-2">
+                  <label for="choices">Home Style:</label> <select id="choices">
+                    <option>
+                    </option>
+                    <option>
+                      House
+                    </option>
+                    <option>
+                      Semi-Detach
+                    </option>
+                    <option>
+                      Townhouse
+                    </option>
+                    <option>
+                      Townhouse style condominium
+                    </option>
+                    <option>
+                      Apartment
+                    </option>
+                    <option>
+                      Apartment style condominium
+                    </option>
+                    <option>
+                      Mobile Home
+                    </option>
+                    <option>
+                      Other
+                    </option>
+                  </select>
+                </div>
+                <div class="push-1-2">
+                  <label for="name">If 'Other', Please describe:</label> <input id="name">
+                </div>
+                <div class="push-1-2">
+                  <label for="choices">Do You:</label> <select id="choices">
+                    <option>
+                    </option>
+                    <option>
+                      Rent
+                    </option>
+                    <option>
+                      Own
+                    </option>
+                    <option>
+                      Other
+                    </option>
+                  </select>
+                </div>
+                <div class="push-1-2">
+                  <label for="name">If 'Other', Please describe:</label> <input id="name">
+                </div>
+                <div class="push-1-2">
+                  <label for="name">If renting, Landlord's name:</label> <input id="name">
+                </div>
+                <div class="push-1-2">
+                  <label for="name">Landlord's Phone Number:</label> <input id="name">
+                </div>
+                <div class="push-1-2">
+                  <label for="choices">Environment Type:</label> <select id="choices">
+                    <option>
+                      City
+                    </option>
+                    <option>
+                      Suburban
+                    </option>
+                    <option>
+                      Country
+                    </option>
+                  </select>
+                </div>
+              </div>
+              <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
+                <div class="push-1-2">
+                  <label for="name">Home Sq. Footage:</label> <input aria-describedby="name-error" id="name" required="">
+                  <p class="error-message milli island-1-4 push-0" id="name-error"><i class="icon i-16"><svg>
+                  <use xlink:href="images/error-icon.svg#settings"></use></svg></i> <span class="icon-label">Please provide square footage</span></p>
+                </div>
+                <div class="push-1-2">
+                  <label for="name">Approx. Yard Size:</label> <input aria-describedby="name-error" id="name" required="">
+                  <p class="error-message milli island-1-4 push-0" id="name-error"><i class="icon i-16"><svg>
+                  <use xlink:href="images/error-icon.svg#settings"></use></svg></i> <span class="icon-label">Please provide yard size</span></p>
+                </div>
+                <div class="push-1-2">
+                  <label for="choices">Is someone home during the day?</label> <select id="choices">
+                    <option>
+                    </option>
+                    <option>
+                      Yes
+                    </option>
+                    <option>
+                      No
+                    </option>
+                  </select>
+                </div>
+                <div class="push-1-2">
+                  <label for="name">Where will your dog be kept during the day?</label> <input aria-describedby="name-error" id="name" required="">
+                  <p class="error-message milli island-1-4 push-0" id="name-error"><i class="icon i-16"><svg>
+                  <use xlink:href="images/error-icon.svg#settings"></use></svg></i> <span class="icon-label">Please provide an answer</span></p>
+                </div>
+                <div class="push-1-2">
+                  <label for="name">Where will your dog be kept during the night?</label> <input aria-describedby="name-error" id="name" required="">
+                  <p class="error-message milli island-1-4 push-0" id="name-error"><i class="icon i-16"><svg>
+                  <use xlink:href="images/error-icon.svg#settings"></use></svg></i> <span class="icon-label">Please provide an answer</span></p>
+                </div>
+                <div class="push-1-2">
+                  <label for="name">How many working hours will your dog be left alone in a day?</label> <input aria-describedby="name-error" id="name" required="">
+                  <p class="error-message milli island-1-4 push-0" id="name-error"><i class="icon i-16"><svg>
+                  <use xlink:href="images/error-icon.svg#settings"></use></svg></i> <span class="icon-label">Please provide an answer</span></p>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <h3 class="push-1-4 pad-t-1-2">Pet Information</h3>
+        <div class="grid featured">
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
+            <div class="push-1-2">
+              <label for="choices">Have you ever owned a dog before?</label> <select id="choices">
+                <option>
+                </option>
+                <option>
+                  Yes
+                </option>
+                <option>
+                  No
+                </option>
+              </select>
+            </div>
+            <div class="push-1-2">
+              <label for="name">If so, where is that dog now?</label> <input id="name">
+            </div>
+            <div class="push-1-2">
+              <label for="choices">Do you have any other pets?</label> <select id="choices">
+                <option>
+                </option>
+                <option>
+                  Yes
+                </option>
+                <option>
+                  No
+                </option>
+              </select>
+            </div>
+            <div class="push-1-2">
+              <label for="name">If yes, please list type, breed, age, sex</label> <input id="name">
+            </div>
+            <div class="push-1-2">
+              <label for="comment">List other pets you have owned in the past 10 years and what happened to them:</label>
+              <textarea id="comment"></textarea>
+            </div>
+            <div class="push-1-2">
+              <label for="comment">Where did your current and previous pets come from?</label>
+              <textarea id="comment"></textarea>
+            </div>
+            <div class="push-1-2">
+              <label for="choices">Are your current pets all vaccinated</label> <select id="choices">
+                <option>
+                </option>
+                <option>
+                  Yes
+                </option>
+                <option>
+                  No
+                </option>
+              </select>
+            </div>
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
+            <div class="push-1-2">
+              <label for="choices">Are your current pets all spayed/neutered</label> <select id="choices">
+                <option>
+                </option>
+                <option>
+                  Yes
+                </option>
+                <option>
+                  No
+                </option>
+              </select>
+            </div>
+            <div class="push-1-2">
+              <label for="choices">Do you use heartworm prevention with your other pets?</label> <select id="choices">
+                <option>
+                </option>
+                <option>
+                  Yes
+                </option>
+                <option>
+                  No
+                </option>
+              </select>
+            </div>
+            <div class="push-1-2">
+              <label for="comment">Why do you want a rescued dog?</label>
+              <textarea id="comment"></textarea>
+            </div>
+            <div class="push-1-2">
+              <label for="comment">Under what circumstances would you give up the dog?</label>
+              <textarea id="comment"></textarea>
+            </div>
+            <div class="push-1-2">
+              <label for="comment">Are there any specific behaviors that the dog may exhibit that would prompt you to give it up?</label>
+              <textarea id="comment"></textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="push-1-2 pad-t-2">
+        <p>I certify that the information provided on this form is true & correct and that nothing of relevance has been omitted. I realize that if any of the information I have provided is inaccurate, misleading, or significant omissions have been made, this may result in my application being denied.</p>
+        <p>I grant my permission for a LOYAL Rescue Inc. volunteer to contact all stated personal references and veterinarian(s).</p>
+        <p>I am financially and physically able to care for this animal. I understand that proper food, water, shelter, and veterinary care is necessary and may be costly, and I am able to meet these requirements.</p>
+        <p>I am aware that Home Visits are mandatory prior to approval for ALL applicants and are also made on a random basis following adoption.</p>
+        <p>If, even after an adoption has taken place, it is discovered that information contained in this application to be false or misleading, LOYAL Rescue Inc. retains the right to deny your application or remove the animal from your premises without a refund of monies paid.</p>
+        <p>LOYAL Rescue Inc. reserves the right to deny any application due to the primary interest being the best interest of the animal.</p>
+      </div><input aria-describedby="agree-error" id="agree" required="" type="checkbox"> <label for="agree">I Agree to the above statements and I certify that I am 18 years or older</label>
+      <p class="error-message milli island-1-4 push-0" id="agree-error"><i class="icon i-16"><svg>
+      <use xlink:href="images/icons.svg#settings"></use></svg></i> <span class="icon-label">Please agree</span></p>
+      <div class="pad-t-1-2">
+        <button class="btn btn-em" type="submit">Send</button>
+      </div>
+      <script src="https://thomasjbradley.github.io/form-validation-helper/index.js">
+      </script>
+    </div>
+  </div>
+  <section id="footer">
+    <footer role="contentinfo">
+      <div class="footer text-center">
+        <div class="icon-nav">
+          <a class="inline-block pad-t-2" href="#"><i class="icon i-32"><svg>
+          <use xlink:href="../images/socialicons.svg#facebook"></use></svg></i></a> <a class="inline-block" href="#"><i class="icon i-32"><svg>
+          <use xlink:href="../images/socialicons.svg#instagram"></use></svg></i></a> <a class="inline-block" href="#"><i class="icon i-32"><svg>
+          <use xlink:href="../images/socialicons.svg#twitter"></use></svg></i></a>
+        </div>
+        <div class="wrapper gutter-1-2 island">
+          <p class="push-1-2 micro">LOYAL Rescue Inc. © 2005-2017</p>
+        </div>
+      </div>
+    </footer>
+  </section>
+</body>
+</html>
