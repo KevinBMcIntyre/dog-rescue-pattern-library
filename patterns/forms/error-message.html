@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Confirm/Submit Form Field</title>
+  <title>Name</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="../../common/type.css" rel="stylesheet">
   <link href="../../common/grid.css" rel="stylesheet">
@@ -13,23 +13,13 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700|Slabo+27px:400,700" rel="stylesheet">
 </head>
 <body>
-
   <form class="max-length island" method="post" novalidate>
-
-    <div class="push-1-2 pad-t-2">
-      <input type="checkbox" id="agree" required aria-describedby="agree-error">
-      <label for="agree">Title</label>
-      <p class="error-message milli island-1-4 push-0" id="agree-error">
-        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#settings" /></svg></i>
-        <span class="icon-label">Please agree</span>
-      </p>
-
+    <div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="warning">
+        <h4 class="push-0">
+        <i class="icon i-32"><svg><use xlink:href="images/icons.svg#settings" /></svg></i>
+        <span class="icon-label">Please fill the required fields</span>
+      </h4>
     </div>
-
-    <div class="pad-t-1-2">
-      <button class="btn btn-em" type="submit">Send</button>
-    </div>
-
   </form>
   <script src="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>
 </body>

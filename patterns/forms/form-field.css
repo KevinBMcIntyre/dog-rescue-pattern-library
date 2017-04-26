@@ -19,7 +19,10 @@ html {
 
 .error-message-highlighted {
   background-color: #c33;
-  color: #fff;
+}
+
+.error-message-highlighted h4 {
+  color: white;
 }
 
 .is-validated > .error-message:first-child,
@@ -28,6 +31,10 @@ html {
   display: block;
 }
 
-input {
+input, textarea, select {
   border: 2px solid #bc1c2c;
+}
+
+.yellow {
+  background-color: var(--color-accent);
 }

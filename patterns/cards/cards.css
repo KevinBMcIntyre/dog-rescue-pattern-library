@@ -31,5 +31,14 @@
 }
 
 .silver {
-	background-color: var(--color-accent);
+  background-color: var(--color-accent);
+}
+
+.thanks {
+  background-color: var(--color-primary-light);
+  color: white;
+}
+
+.thanks h2{
+  color: white;
 }
